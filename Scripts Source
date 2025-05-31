@@ -1,0 +1,161 @@
+-- This is my source
+-- Not loadstring
+-- Version: V1
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local c00lkiddgui = Instance.new("TextButton")
+local GrowAGardenGui = Instance.new("TextButton")
+local Aimbot = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+local InfiniteYield = Instance.new("TextButton")
+local Credits = Instance.new("TextLabel")
+local makesureInfiniteYield = Instance.new("TextLabel")
+local makesureGrowAGardenGui = Instance.new("TextLabel")
+local DoesntWorkText = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.Active = true
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.265426457, 0, 0.242718443, 0)
+Main.Size = UDim2.new(0, 675, 0, 360)
+Main.Active = true
+Main.Draggable = true
+
+c00lkiddgui.Name = "c00lkidd gui"
+c00lkiddgui.Parent = Main
+c00lkiddgui.BackgroundColor3 = Color3.fromRGB(170, 255, 127)
+c00lkiddgui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+c00lkiddgui.BorderSizePixel = 0
+c00lkiddgui.Position = UDim2.new(0, 0, 0.888888896, 0)
+c00lkiddgui.Size = UDim2.new(0, 131, 0, 40)
+c00lkiddgui.Font = Enum.Font.SourceSansBold
+c00lkiddgui.Text = "c00lkidd gui (client sided)"
+c00lkiddgui.TextColor3 = Color3.fromRGB(0, 0, 0)
+c00lkiddgui.TextSize = 17.000
+c00lkiddgui.TextWrapped = true
+c00lkiddgui.MouseButton1Down:Connect(function()
+	--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/MiRw3b/c00lgui-v3rx/main/c00lguiv3rx.lua"))()
+end)
+
+GrowAGardenGui.Name = "Grow A Garden Gui"
+GrowAGardenGui.Parent = Main
+GrowAGardenGui.BackgroundColor3 = Color3.fromRGB(170, 255, 127)
+GrowAGardenGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GrowAGardenGui.BorderSizePixel = 0
+GrowAGardenGui.Position = UDim2.new(0.791111112, 0, 0, 0)
+GrowAGardenGui.Size = UDim2.new(0, 141, 0, 39)
+GrowAGardenGui.Font = Enum.Font.Unknown
+GrowAGardenGui.Text = "Grow A Garden Gui"
+GrowAGardenGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+GrowAGardenGui.TextSize = 17.000
+GrowAGardenGui.TextWrapped = true
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = Main
+Aimbot.BackgroundColor3 = Color3.fromRGB(170, 255, 127)
+Aimbot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.BorderSizePixel = 0
+Aimbot.Position = UDim2.new(0.75555557, 0, 0.888888896, 0)
+Aimbot.Size = UDim2.new(0, 165, 0, 40)
+Aimbot.Font = Enum.Font.SourceSansBold
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.TextSize = 25.000
+Aimbot.TextWrapped = true
+Aimbot.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/neLVDaNn"))()
+end)
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.Active = true
+Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.368888885, 0, 0.027777778, 0)
+Title.Size = UDim2.new(0, 200, 0, 50)
+Title.Font = Enum.Font.Unknown
+Title.Text = "Scripts"
+Title.TextColor3 = Color3.fromRGB(0, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = Main
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(170, 255, 127)
+InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Size = UDim2.new(0, 157, 0, 39)
+InfiniteYield.Font = Enum.Font.Unknown
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.TextSize = 25.000
+InfiniteYield.TextWrapped = true
+InfiniteYield.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.Active = true
+Credits.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.368888885, 0, 0.949999988, 0)
+Credits.Size = UDim2.new(0, 200, 0, 18)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Made By @xzinax"
+Credits.TextColor3 = Color3.fromRGB(0, 255, 255)
+Credits.TextSize = 21.000
+
+makesureInfiniteYield.Name = "make sure Infinite Yield"
+makesureInfiniteYield.Parent = Main
+makesureInfiniteYield.Active = true
+makesureInfiniteYield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+makesureInfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+makesureInfiniteYield.BorderSizePixel = 0
+makesureInfiniteYield.Position = UDim2.new(0, 0, 0.141666666, 0)
+makesureInfiniteYield.Size = UDim2.new(0, 157, 0, 23)
+makesureInfiniteYield.Font = Enum.Font.SourceSans
+makesureInfiniteYield.Text = "Infinite Yield"
+makesureInfiniteYield.TextColor3 = Color3.fromRGB(0, 255, 0)
+makesureInfiniteYield.TextSize = 14.000
+
+makesureGrowAGardenGui.Name = "make sure Grow A Garden Gui"
+makesureGrowAGardenGui.Parent = Main
+makesureGrowAGardenGui.Active = true
+makesureGrowAGardenGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+makesureGrowAGardenGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+makesureGrowAGardenGui.BorderSizePixel = 0
+makesureGrowAGardenGui.Position = UDim2.new(0.767407417, 0, 0.141666666, 0)
+makesureGrowAGardenGui.Size = UDim2.new(0, 157, 0, 23)
+makesureGrowAGardenGui.Font = Enum.Font.SourceSans
+makesureGrowAGardenGui.Text = "Grow A Garden Gui"
+makesureGrowAGardenGui.TextColor3 = Color3.fromRGB(0, 255, 0)
+makesureGrowAGardenGui.TextSize = 14.000
+
+DoesntWorkText.Name = "Doesn't Work Text"
+DoesntWorkText.Parent = Main
+DoesntWorkText.Active = true
+DoesntWorkText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DoesntWorkText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DoesntWorkText.BorderSizePixel = 0
+DoesntWorkText.Position = UDim2.new(0.792592585, 0, 0.224999994, 0)
+DoesntWorkText.Size = UDim2.new(0, -10, 0, 17)
+DoesntWorkText.Font = Enum.Font.SourceSans
+DoesntWorkText.Text = "Doesn't Work Anymore Dont Use This Grow A Garden Script"
+DoesntWorkText.TextColor3 = Color3.fromRGB(0, 255, 0)
+DoesntWorkText.TextSize = 14.000
